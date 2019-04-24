@@ -300,7 +300,6 @@ a:hover,a:focus{ text-decoration: none; }
   .footer{ margin-bottom: 80px; }
   .hzlj .layui-tab-title{ width: 80%; }
   .zhuanjia .layui-tab-title{ width: 80%; }
-  .shudh{ top: 30%; }
 }
 
 @media screen and (max-width: 600px){
@@ -312,8 +311,10 @@ a:hover,a:focus{ text-decoration: none; }
   .zhuanjia .layui-tab-title li{ padding: 0px 10px; }
   .navNR ul li{ width: 25%; margin-top: 0px; }
   .navNR .navEng{ padding-top: 0px; }
-  .shudh{ width: 100%; bottom: 100px; left: 0px; height: auto; top: auto; }
-  .shudh ul li{ float: left; width: 16.66%; border:none; }
+  .shudh ul li:nth-child(1),
+  .shudh ul li:nth-child(2),
+  .shudh ul li:nth-child(4){ display: none; }
+
 }
 
 
