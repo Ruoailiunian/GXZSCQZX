@@ -310,8 +310,9 @@ a:hover,a:focus{ text-decoration: none; }
   .hzlj .layui-tab-title li{ padding: 0px 10px; }
   .zhuanjia .layui-tab-title{ width: 98%; }
   .zhuanjia .layui-tab-title li{ padding: 0px 10px; }
-  .navNR ul li{ width: 25%; }
-  .shudh{ width: 100%; bottom: 160px; left: 0px; height: auto; top: auto; }
+  .navNR ul li{ width: 25%; margin-top: 0px; }
+  .navNR .navEng{ padding-top: 0px; }
+  .shudh{ width: 100%; bottom: 100px; left: 0px; height: auto; top: auto; }
   .shudh ul li{ float: left; width: 16.66%; border:none; }
 }
 
