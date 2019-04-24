@@ -1,0 +1,64 @@
+body,html{ width: 100%; height: 100%; background: #eee; }
+.main{ width: 100%; height: 100%; background: url(../images/bg.jpg) no-repeat center center; background-size: cover; }
+.mainN{ width: 80%; height: 500px; /*background: #ccc;*/ position: absolute; margin: 0px auto; top: 50%; margin-top: -250px; margin-left: 10%; border-radius: 5px;}
+.RkList{ width: 29%; height: 500px; background: #fff; float: left; margin: 0px 2%; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3); position: relative; transition: all 0.3s; }
+.RkListBt{ width: 100px; height: 100px; border-radius: 50%; background: #ffdee7; position: absolute; left: 50%; margin-left: -50px; top: 0px; /*margin-top: -50px;*/ border:3px solid #ee2186; }
+.RkListBt span{ display: block; width: 100%; height: 100px; line-height: 100px; text-align: center; }
+.RkListBt i{ font-size: 36px; color: #e92b5f; }
+.RkListTop{ width: 100%; height: 155px; background: url(../images/divtop1.png) no-repeat center center; background-size: cover; color: #fff; font-size: 20px;/* font-weight: bold;*/ text-align: center; line-height: 240px; }
+
+.RkList.bh2 .RkListBt{ border: 3px solid #f07d49; }
+.RkList.bh3 .RkListBt{ border: 3px solid #a64cef; }
+.RkList.bh2 .RkListTop{ background: url(../images/divtop2.png) no-repeat center center;}
+.RkList.bh3 .RkListTop{ background: url(../images/divtop3.png) no-repeat center center;}
+
+.RkList.bh1 .RkListBt i{ font-size: 31px; }
+.RkList.bh2 .RkListBt{ background: #ffe4cf; }
+.RkList.bh2 .RkListBt i{ color: #ff8646; }
+.RkList.bh3 .RkListBt{ background: #e5e3ff; }
+.RkList.bh3 .RkListBt i{ color: #7770fd; }
+
+.RkListText{ margin-top: 20px; height: 230px; overflow:hidden; width: 90%; margin-left: 5%; line-height: 30px;  }
+.RkListText p{ text-indent: 2em; text-align: justify; color: #777; }
+.RkListText p:after {content: " "; display: inline-block; width: 100%;}
+
+.RkListButton{ width: 100%; text-align: center; margin-top: 20px; }
+.RkListButton input{ width: 60%; height: 45px; line-height: 45px; background: #f7548e; color: #fff; font-size: 16px; border-radius: 5px; border:none; } 
+
+.RkList.bh2 .RkListButton input{ background: #f8b256; }
+.RkList.bh3 .RkListButton input{ background: #ce8af0; }
+
+.RkList:hover{ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5); }
+
+
+.ZcDiv{ width: 80%; margin-left: 10%; height: 500px; background: #fff; position: absolute; top: 50%; margin-top: -250px; background: rgba(244,244,244,0.8); }
+.ZcBt{ width: 100%; height: 30px; line-height: 30px; float: left; margin-top: 10px;}
+.ZcBt i{ margin-left: 20px; font-size: 24px; margin-right: 10px; color: #999; }
+.ZcBt span{ font-size: 15px; color: #888; }
+.ZcLabel{ width: 90%; margin-left: 3%; padding-left: 2%; border-left: 1px dotted #999; display: inline-block; padding-top: 20px; }
+.ZcLabel table{ width: 100%; }
+.ZcLabel table tr td{ padding: 10px 0px; }
+.ZcLabel table tr td input{ width: 90%; float: left; }
+.ZcLabel table tr td:nth-child(2n-1){ width: 5%; text-align: center; }
+.ZcLabel table tr td:nth-child(2n) input{ width: 100%; }
+
+
+.LabelButton{ width: 100%; text-align: center; }
+.LabelButton input{ width: 120px; height: 45px; line-height: 45px; background: #337ab7; color: #fff; font-size: 14px; border-radius: 5px; border:none; }
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 962334 */
+  src: url('http://at.alicdn.com/t/font_962334_mnjesg1tbj.eot');
+  src: url('http://at.alicdn.com/t/font_962334_mnjesg1tbj.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_962334_mnjesg1tbj.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_962334_mnjesg1tbj.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_962334_mnjesg1tbj.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
