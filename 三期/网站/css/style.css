@@ -5,7 +5,7 @@ a:hover,a:focus{ text-decoration: none; }
 .navN{ width: 1200px; height: 80px; line-height: 80px; position: relative; margin: 0px auto; }
 .navNL img{ width: 100%; }
 .navNL .fzx{ padding: 0px; font-size: 14px; color: #fff; text-align: center; position: relative; margin-top: 25px;  }
-.navNL .fzx h6{height: 30px; line-height: 30px;border-radius: 5px; padding: 0px; background: #fc8d54; }
+.navNL .fzx h6{height: 30px; line-height: 30px;border-radius: 5px; padding: 0px; background: #c6d5ff; }
 .navNL .fzx ul{ width: 350px; display: inline-block; position: absolute; left: 0px; top: 30px; overflow: hidden; display: none; padding-top: 10px; }
 .navNL .fzx ul li{ float: left;  background: #4d7cf0; float: left; width: 16.6%; text-align: center; height: 30px; line-height: 30px; }
 .navNL .fzx ul li:first-child{ border-radius: 5px 0px 0px 5px; }
@@ -300,6 +300,7 @@ a:hover,a:focus{ text-decoration: none; }
   .footer{ margin-bottom: 80px; }
   .hzlj .layui-tab-title{ width: 80%; }
   .zhuanjia .layui-tab-title{ width: 80%; }
+  .shudh{ top: 30%; }
 }
 
 @media screen and (max-width: 600px){
@@ -309,7 +310,9 @@ a:hover,a:focus{ text-decoration: none; }
   .hzlj .layui-tab-title li{ padding: 0px 10px; }
   .zhuanjia .layui-tab-title{ width: 98%; }
   .zhuanjia .layui-tab-title li{ padding: 0px 10px; }
-
+  .navNR ul li{ width: 25%; }
+  .shudh{ width: 100%; bottom: 160px; left: 0px; height: auto; top: auto; }
+  .shudh ul li{ float: left; width: 16.66%; border:none; }
 }
 
 
