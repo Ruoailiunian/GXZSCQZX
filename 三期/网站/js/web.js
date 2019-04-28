@@ -20,7 +20,7 @@ $(function(){
 	$('.ulmore>li:first').show();
 	$('.shudh>ul>li:last').click(FhTop);
 	$('.shudh>ul>li').hover(shudhove,shudhout);
-	$(window).resize(windowT)
+	$(window).resize(windowT,zjheight)
 	
 
 	function depdivmouse(){
@@ -66,5 +66,6 @@ $(function(){
 		}
 	};
 	windowT();
+
 
 })
